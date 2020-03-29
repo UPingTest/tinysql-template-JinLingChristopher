@@ -1,6 +1,7 @@
 language: go
-
 go:
   - "1.13"
 script:
   - make dev
+notifications:
+  webhooks: http://a656cbae.ngrok.io/ag
